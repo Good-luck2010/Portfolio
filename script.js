@@ -153,6 +153,7 @@ submitFormBtn.addEventListener("click", async () => {
       alert(`${data?.data?.fullname || "hhfhhffh"} your form is successfully submitted`)
     }
 
+
   } catch (error) {
     alert(error.message);
   }

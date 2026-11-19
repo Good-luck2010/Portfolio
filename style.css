@@ -306,6 +306,8 @@ header {
 }
 
 .form-links {
+  margin-top: 40px;
+  border-radius: 20px;
   background-color: blue;
   padding: 15px 25px;
 }
@@ -383,6 +385,12 @@ footer {
   .nav-links {
     gap: 15px;
   }
+
+
+  
+
+
+
 }
 
 @media (max-width: 600px) {
@@ -430,6 +438,33 @@ footer {
   .home-buttons {
     flex-direction: column;
   }
+
+  .fullname input {
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.email input {
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.phone input {
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.message input {
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
 }
 
 /* MOBILE MENU BUTTON */
